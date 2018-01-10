@@ -1,3 +1,4 @@
+package main;
 
 public class Hello {
 
@@ -6,4 +7,8 @@ public class Hello {
 		System.out.print("Hello World!");
 	}
 
+	public String createName(String firstName, String lastName) {
+		String Name = firstName + " " + lastName;
+		return Name;
+	}
 }
