@@ -11,4 +11,15 @@ public class Hello {
 		String Name = firstName + " " + lastName;
 		return Name;
 	}
+	
+	public String numberLessThanNine(int value) throws Exception
+	{
+		// Check if the value is between 1 and 9.
+		if(value < 1 || value > 9)
+			throw new Exception("Value is not less than nine.");
+		
+		String Message = "Value is good.";
+		
+		return Message;
+	}
 }
