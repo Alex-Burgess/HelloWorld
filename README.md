@@ -18,20 +18,20 @@ The application is mainly meant to be view from within Eclipse (or similar IDE) 
 
 The application can be compiled and run locally:
 1. Change to the source file location: 
-  ```
-  $ cd /Users/alexburgess/Development/HelloWorldJava/src/main
-  ```
+    ```
+    $ cd /Users/alexburgess/Development/HelloWorldJava/src/main
+    ```
 1. Compile the class file:
-  ```
-  $ javac Hello.java
-  ```
+    ```
+    $ javac Hello.java
+    ```
 1. Execute the file:
-  ```
-  $ cd /Users/alexburgess/Development/HelloWorldJava/src/main
-
-  $ java main/Hello
-  Hello World!
-  ```
+    ```
+    $ cd /Users/alexburgess/Development/HelloWorldJava/src/main
+    
+    $ java main/Hello
+    Hello World!
+    ```
 
 The application can be turned into a jar file for deployment as follows:
 1. Change the package location:
