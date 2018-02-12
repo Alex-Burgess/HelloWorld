@@ -35,15 +35,15 @@ The application can be compiled and run locally:
 
 The application can be turned into a jar file for deployment as follows:
 1. Change the package location:
-```
-$ cd /Users/alexburgess/Development/HelloWorldJava/src
-```
+    ```
+    $ cd /Users/alexburgess/Development/HelloWorldJava/src
+    ```
 1. Jar up the necessary file, including e flag as there is no manifest file:
-```
-$ jar cfe helloWorld.jar main/Hello main/Hello.class 
-```
+    ```
+    $ jar cfe helloWorld.jar main/Hello main/Hello.class 
+    ```
 1. Test the execution:
-```
-$ java -jar helloWorld.jar 
-Hello World!
-```
+    ```
+    $ java -jar helloWorld.jar 
+    Hello World!
+    ```
