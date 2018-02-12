@@ -33,3 +33,18 @@ $ cd /Users/alexburgess/Development/HelloWorldJava/src/main
 $ java main/Hello
 Hello World!
 ```
+
+The application can be turned into a jar file for deployment as follows:
+1. Change the package location:
+```
+$ cd /Users/alexburgess/Development/HelloWorldJava/src
+```
+1. Jar up the necessary file, including e flag as there is no manifest file:
+```
+$ jar cfe helloWorld.jar main/Hello main/Hello.class 
+```
+1. Test the execution:
+```
+$ java -jar helloWorld.jar 
+Hello World!
+```
